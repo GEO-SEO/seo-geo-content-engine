@@ -137,7 +137,7 @@ Switch anytime: "switch to Mode A" or "switch to Mode B".
 
 **Tracker URL:**
 ```
-https://docs.google.com/spreadsheets/d/1X9wmedzmgl_HDH4ceFMsfDZrbStrO0EPeltClp5ROMM/edit?gid=0#gid=0
+https://docs.google.com/spreadsheets/d/xxx/edit?gid=0#gid=0
 ```
 
 **Required sheet columns:**
