@@ -133,7 +133,7 @@ Switch anytime: "switch to Mode A" or "switch to Mode B".
 
 **Purpose:** Confirm the target keyword has not already been written. Prevents duplicate content.
 
-**Action:** Access the Google Sheets keyword tracker and read all rows where Status = "否".
+**Action:** Access the Google Sheets keyword tracker and read all rows where Status = "pending".
 
 **Tracker URL:**
 ```
@@ -145,7 +145,7 @@ https://docs.google.com/spreadsheets/d/xxx/edit?gid=0#gid=0
 | Column | Values |
 |--------|--------|
 | Keyword | Target keyword text |
-| Status | 否 = not yet written / 是 = published |
+| Status | pending = not yet written / yes = published |
 
 **Output:**
 ```
@@ -153,7 +153,7 @@ https://docs.google.com/spreadsheets/d/xxx/edit?gid=0#gid=0
 📊 STEP 1: Keyword Backlog Check
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Available (Status = 否):
+Available (Status = pending):
 1. [keyword 1]
 2. [keyword 2]
 3. [keyword 3]
@@ -163,7 +163,7 @@ Available (Status = 否):
 ```
 
 **Validation:**
-- If user keyword is NOT in the 否 list → warn: "⚠️ This keyword already has an article (status ≠ 否). Confirm to proceed anyway, or I can suggest an available keyword."
+- If user keyword is NOT in the pending list → warn: "⚠️ This keyword already has an article (status ≠ pending). Confirm to proceed anyway, or I can suggest an available keyword."
 - If no keyword specified → use the first available keyword in the list
 - If sheet is inaccessible → ask user to confirm keyword manually, then proceed
 
@@ -924,7 +924,7 @@ If any check fails, correct before outputting.
 | `force framework B: [keyword]` | Skip Step 3 type detection, use How-to framework |
 | `force framework C: [keyword]` | Skip Step 3 type detection, use Review framework |
 | `force framework D: [keyword]` | Skip Step 3 type detection, use Alternatives framework |
-| `show available keywords` | Re-read Google Sheets, list all status=否 keywords |
+| `show available keywords` | Re-read Google Sheets, list all status=pending keywords |
 | `only block 1` | Output SEO metadata only |
 | `only block 2` | Output full article only |
 | `only block 3` | Output FAQ + schema only |
@@ -945,7 +945,7 @@ If any check fails, correct before outputting.
 
 ```
 STEP 1 → Reads Google Sheets
-         Confirms "best AI search visibility tracking tools" = Status 否 ✅
+         Confirms "best AI search visibility tracking tools" = Status pending ✅
          → Passes confirmed keyword to Step 2
 
 STEP 2 → Expands keyword matrix
