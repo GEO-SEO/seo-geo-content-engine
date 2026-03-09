@@ -2,15 +2,15 @@
 [![Workflow](https://img.shields.io/badge/workflow-Research%20%E2%86%92%20SERP%20%E2%86%92%20Content-blue)](./skills/programmatic-seo-writer.md)
 [![Outputs](https://img.shields.io/badge/output-Metadata%20%7C%20Article%20%7C%20FAQ%20%7C%20GEO-orange)](./skills/programmatic-seo-writer.md)
 
-# Programmatic SEO
+# SEO GEO Content Engine
 
-![Programmatic SEO Cover](./assets/cover.svg)
+![SEO GEO Content Engine Cover](./assets/cover.svg)
 
 > Turn keywords into search- and AI-ready content pipelines with automated research, SERP analysis, writing, and optimization.
 
 **Positioning**
 
-Programmatic SEO is a content production system for teams that want more than one-off article generation.
+SEO GEO Content Engine is a content production system for teams that want more than one-off article generation.
 
 It is designed to turn a target keyword into:
 
@@ -152,7 +152,7 @@ Use it when you want a repeatable SEO + GEO writing workflow rather than a gener
 ## Repo Structure
 
 ```text
-programmatic-seo/
+seo-geo-content-engine/
 ├── README.md
 ├── LICENSE
 ├── assets/
