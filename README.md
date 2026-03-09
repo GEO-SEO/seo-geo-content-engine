@@ -145,7 +145,7 @@ Content Package
 
 The core skill lives here:
 
-- [`skills/programmatic-seo-writer.md`](/Users/timlin/Downloads/programmatic-seo/skills/programmatic-seo-writer.md)
+- [`skills/programmatic-seo-writer.md`](./skills/programmatic-seo-writer.md)
 
 Use it when you want a repeatable SEO + GEO writing workflow rather than a generic text generator.
 
