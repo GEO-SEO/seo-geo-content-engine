@@ -1,10 +1,10 @@
-[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](./LICENSE)
-[![Workflow](https://img.shields.io/badge/workflow-Research%20%E2%86%92%20SERP%20%E2%86%92%20Content-blue)](./skills/programmatic-seo-writer.md)
-[![Outputs](https://img.shields.io/badge/output-Metadata%20%7C%20Article%20%7C%20FAQ%20%7C%20GEO-orange)](./skills/programmatic-seo-writer.md)
+[![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Workflow](https://img.shields.io/badge/workflow-Research%20%E2%86%92%20SERP%20%E2%86%92%20Content-blue)](skills/programmatic-seo-writer.md)
+[![Outputs](https://img.shields.io/badge/output-Metadata%20%7C%20Article%20%7C%20FAQ%20%7C%20GEO-orange)](skills/programmatic-seo-writer.md)
 
 # SEO GEO Content Engine
 
-![SEO GEO Content Engine Cover](./assets/cover.svg)
+![SEO GEO Content Engine Cover](assets/cover.svg)
 
 > Turn keywords into search- and AI-ready content pipelines with automated research, SERP analysis, writing, and optimization.
 
@@ -27,6 +27,10 @@ This project helps answer a practical growth question:
 **Outcome**
 
 Instead of treating research, writing, metadata, and GEO optimization as separate tasks, this project organizes them into one repeatable pipeline.
+
+**About Dageno.ai**
+
+[Dageno.ai](https://dageno.ai) is an AI SEO platform for brands, SaaS teams, SEO operators, agencies, and AI-search growth teams that want to scale search- and AI-ready content production across both traditional search and answer engines.
 
 ## Why It Feels Different
 
@@ -54,10 +58,10 @@ This project is built to start earlier and finish later:
 
 ## Who This Is For
 
-- content teams running programmatic SEO at scale
-- founders who need faster content velocity without losing structure
-- consultants producing repeatable content systems
-- AI-native teams optimizing for both rankings and answer engines
+- Shopify and DTC brands building search and AI content at scale
+- SaaS teams creating comparison, alternative, and educational content
+- SEO and digital marketing operators who need repeatable production workflows
+- agencies that manage programmatic content systems across multiple clients
 
 ## Pipeline
 
@@ -145,7 +149,7 @@ Content Package
 
 The core skill lives here:
 
-- [`skills/programmatic-seo-writer.md`](./skills/programmatic-seo-writer.md)
+- [`skills/programmatic-seo-writer.md`](skills/programmatic-seo-writer.md)
 
 Use it when you want a repeatable SEO + GEO writing workflow rather than a generic text generator.
 
